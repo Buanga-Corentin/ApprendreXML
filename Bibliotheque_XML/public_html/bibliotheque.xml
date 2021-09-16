@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="bibliotheque.xsl" type="text/xsl" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<bibliotheque>
+
+    <allee numero = "1">
+        <rayon numero = "1">
+            <ouvrage type = "litterature">
+                <titre>Le papillion des étoiles</titre>
+                <auteur>Bernard WERBER</auteur>
+            </ouvrage>
+            <ouvrage type = "manuelScolaire">
+                <titre>Les Formes de bases</titre>
+                <auteur>Daniele Dumont</auteur>
+            </ouvrage>
+            <ouvrage type = "scienceEtTechnique">
+                <titre>XML et XSL : Les feuilles de style XML</titre>
+                <auteur>Cyril Vincent</auteur>
+            </ouvrage>
+        </rayon>
+        <rayon numero = "2">
+            <ouvrage type = "periodique">
+                <titre>LINUX Magazine</titre>
+            </ouvrage>
+            <ouvrage type = "periodique">
+                <titre>Closer</titre>
+            </ouvrage>
+            <ouvrage type = "litterature" numero = "1">
+                <titre>Harry Potter</titre>
+                <auteur>JK Rollin</auteur>
+            </ouvrage>
+        </rayon>
+        
+    </allee>
+     <allee numero = "2">
+         <rayon numero = "1">
+            <ouvrage type = "litterature" numero = "31">
+                <titre>Harry Potter</titre>
+                <auteur>Terry Pratchett</auteur>
+            </ouvrage>
+        </rayon>
+        <rayon numero = "2">
+            <ouvrage type = "litterature" numero = "2">
+                <titre>Fondation</titre>
+                <auteur>Isaac Asimov</auteur>
+            </ouvrage>
+            <ouvrage type = "scienceEtTechnique">
+                <titre>Ajax, jQuery et PHP</titre>
+                <auteur>Jean-marie Defrance</auteur>
+            </ouvrage>
+        </rayon>
+    </allee>
+</bibliotheque>
+
+
